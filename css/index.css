@@ -2,24 +2,49 @@ body{
     height: 100%;
     width: 100%;
     margin:0px;
+}
+
+
+header{
+    background-color:white;
+    text-align: center;
+    height: 5vh;    
+    overflow:hidden;
+    padding:auto;
     
 }
 
-header{
-    background-color:blue;
-    text-align: center;
-    padding: 2vh;
-
+.tittle-app{
     
+}
+.tittle-box{
+    text-align: center;
+}
+
+
+ul{
+    float:right;
+    display:inline;
+    
+    
+}
+
+li{
+    display:inline;
+    top:50%;
+    margin:1vw;
 }
 
 .budget{
     width:100%;
-    max-height: 40vh;
-    overflow:hidden;
+    position : relative;
 }
 
 img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    max-height: 40vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
 }
+

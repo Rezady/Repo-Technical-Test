@@ -4,18 +4,51 @@
 
     <head>
         <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/box.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
 
-       <header>
-            <a>haloo</a>
-       </header>
+        <header>
+            <a class="tittle-app">Budget-App</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+               
+            </ul>
+        </header>
 
-       <div class="budget">
+        <div class="budget">
             <img src="../pictures/header.jpg" >
-       </div>
+            <div class="box-input">
+                <div class="topnav">
+                    <a class="active menu" href="#home">Harian</a>
+                    <a class="menu" href="#news">Mingguan</a>
+                    <a class="menu" href="#contact">Bulanan</a>
+                    <a class="menu" href="#">Tahunan</a>
+                    <span class="month-header">
+                        <i class="fa fa-angle-left" style="font-size:24px"></i>
+                        <a class="month-info">Nov 2020</a>
+                        <i class="fa fa-angle-right" style="font-size:24px"></i>
+                    </span>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pemasukkan</th>
+                            <th>Pengeluaran</th>
+                            <th>Saldo</th>
+                        </tr>
+                </thead>
+                </table>
+
+            </div>
+        </div>
+
+        
 
     </body>
 

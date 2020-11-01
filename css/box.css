@@ -1,0 +1,49 @@
+.box-input{
+    top:30vh;
+    left:50vh;
+    background-color: lightgrey;
+    width: 80vh;
+    border: 15px solid green;
+    padding: 1px;
+    position: absolute;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  .topnav a.menu {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a.menu:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .topnav a.menu.active {
+    border-bottom: 3px solid red;
+  }
+
+  .month-header{
+    float:right;
+    margin:auto;
+    display:inline;
+    padding:12px;
+    /* vertical-align: middle; */
+  }
+
+  i{
+    margin:2px;
+}
+
+table thead{
+  width:100vw;
+}
