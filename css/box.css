@@ -1,11 +1,10 @@
 .box-input{
     top:30vh;
-    left:50vh;
+    left:25%;
     background-color: lightgrey;
-    width: 80vh;
-    border: 15px solid green;
-    padding: 1px;
-    position: absolute;
+    width: 50%;
+    padding: 1vw;
+    position: relative;
 }
 
 .topnav {
@@ -24,6 +23,10 @@
     border-bottom: 3px solid transparent;
   }
   
+  .topnav .month-header{
+    height:100%;
+  }
+
   .topnav a.menu:hover {
     border-bottom: 3px solid red;
   }
@@ -36,14 +39,36 @@
     float:right;
     margin:auto;
     display:inline;
-    padding:12px;
-    /* vertical-align: middle; */
+    /* padding:12px; */
+    height:100%;
+    padding : 1vh;
+    
   }
 
   i{
     margin:2px;
 }
 
-table thead{
+.table-header{
+  width:100%;
+  display:block;
+  padding : 1%;
+  position:relative;
+  
+}
+
+thead{
+  width:100%;
+  position: relative;
+  
+}
+
+tr{
   width:100vw;
+  padding:1%;
+}
+
+th,td{
+  padding: 4px 5vw;
+  text-align: center;
 }
