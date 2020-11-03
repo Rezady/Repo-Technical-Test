@@ -52,20 +52,24 @@
 .table-header{
   width:100%;
   display:block;
-  padding : 1%;
+  /* padding : 1%; */
   position:relative;
   
 }
 
+.table-header head{
+  padding: 1%;
+}
+
 thead{
-  width:100%;
-  position: relative;
+  width:inherit;
   
 }
 
 tr{
-  width:100vw;
+  width:inherit;
   padding:1%;
+  
 }
 
 th,td{
